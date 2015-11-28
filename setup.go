@@ -13,6 +13,7 @@ func main(){
   fmt.Scanf("%s", &url)
   if url == "" {
     fmt.Println("Please type in an url")
+    os.Exit(1)
   }
   data, err := http.Get(url)
   if err != nil{
