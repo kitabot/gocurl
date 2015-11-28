@@ -10,7 +10,9 @@ Gocurl will fetch index.html or index.php website's.
 ```shell
 $ git clone https://github.com/codingsmartschool/gocurl.git
 $ cd gocurl
-$ go setup.go example.com
+$ go run setup.go 
+>> url: (Make sure to use http://)
+http://example.com
 ```
 
 ## License
