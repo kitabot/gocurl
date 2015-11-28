@@ -1,9 +1,10 @@
 # Gocurl
 Gocurl will fetch index.html or index.php website's.
 
-# todo
-
-- command line argument
+# Requirements
+* Command Line
+* Golang package
+* Git installed
 
 ## Authors
 * Andre Christoga
