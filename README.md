@@ -1,5 +1,5 @@
 # Gocurl
-Gocurl will fetch index.html or index.php website's.
+Gocurl will fetch website's index code
 
 ## Requirements
 * Command Line
