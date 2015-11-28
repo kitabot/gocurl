@@ -6,9 +6,12 @@ Gocurl will fetch index.html or index.php website's.
 * Golang package
 * Git installed
 
-## Authors
-* Andre Christoga
-* vickydasta
+## To Use
+```
+$ git clone https://github.com/codingsmartschool/gocurl.git
+$ cd gocurl
+$ go setup.go example.com
+```
 
 ## License
 Gocurl is licensed under [MIT](https://github.com/codingsmartschool/gocurl/blob/master/LICENSE).
