@@ -15,6 +15,7 @@ func main(){
     fmt.Println("Please type in an url")
     os.Exit(1)
   }
+  fmt.Println("Fetching url...")
   data, err := http.Get(url)
   if err != nil{
     os.Exit(1)
