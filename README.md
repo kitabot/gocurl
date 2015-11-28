@@ -7,7 +7,7 @@ Gocurl will fetch index.html or index.php website's.
 * Git installed
 
 ## To Use
-```
+```shell
 $ git clone https://github.com/codingsmartschool/gocurl.git
 $ cd gocurl
 $ go setup.go example.com
