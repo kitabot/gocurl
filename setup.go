@@ -1,8 +1,3 @@
-// gocurl is a simple curl like program that able to fetch site's index.html page
-// under some massive development
-// MIT - DWTFPL
-// will add command line arg parser
-// v1
 package main
 
 import (
