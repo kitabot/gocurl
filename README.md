@@ -1,10 +1,9 @@
-# `gocurl`
-`curl` like Go program
-fetch /index.html or /index.php site's HTML
+# Gocurl
+Gocurl will fetch index.html or index.php website's.
 
 # todo
 
-- command line argument 
+- command line argument
 
 ## Authors
 * Andre Christoga
