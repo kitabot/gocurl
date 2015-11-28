@@ -16,6 +16,10 @@ func main(){
     os.Exit(1)
   }
   fmt.Println("Fetching url...")
+  if err = !nil {
+    fmt.Println("Something went wrong...")
+    os.Exit(1)
+  }
   data, err := http.Get(url)
   if err != nil{
     os.Exit(1)
