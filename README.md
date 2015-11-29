@@ -19,3 +19,9 @@ http://example.com
 If you want to contribute to **Gocurl**, the tutorial is available at [CONTRIBUTING.md](CONTRIBUTING.md)
 ## License
 Gocurl is licensed under [MIT](https://github.com/codingsmartschool/gocurl/blob/master/LICENSE).
+
+## Credit
+
+[![Andre Christoga](https://avatars0.githubusercontent.com/u/14870769?v=3&s=460)](http://christoga.github.io) | [![Vicky Vernando Dasta](https://avatars3.githubusercontent.com/u/7861544?v=3&s=460)](http://vickydasta.github.io)
+:---:|:---:
+[Andre Christoga](http://christoga.github.io) | [Vicky Vernando Dasta](http://vickydasta.github.io)
