@@ -15,5 +15,7 @@ $ go run setup.go
 http://example.com
 ```
 
+## Contributing
+If you want to contribute to **Gocurl**, the tutorial is available at [CONTRIBUTING.md](CONTRIBUTING.md)
 ## License
 Gocurl is licensed under [MIT](https://github.com/codingsmartschool/gocurl/blob/master/LICENSE).
