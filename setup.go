@@ -15,7 +15,7 @@ func main(){
     fmt.Println("Please type in an url")
     os.Exit(1)
   }
-  fmt.Println("Fetching url...")
+  // fmt.Println("Fetching url...")
   /* fmt.Println("Fetching url...")
   if err = !nil {
     fmt.Println("Something went wrong...")
@@ -26,6 +26,7 @@ func main(){
     fmt.Println("Please use http:// in your url")
     os.Exit(1)
   }else{
+    fmt.Println("Fetching url...")
     defer data.Body.Close()
     contents, err := ioutil.ReadAll(data.Body)
     if err != nil{
