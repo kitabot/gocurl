@@ -9,7 +9,7 @@ import (
 
 func main(){
   var url string
-  fmt.Println(">> url: (Make sure to use http://)")
+  fmt.Println(">> Insert url: (Make sure to use http://)")
   fmt.Scanf("%s", &url)
   if url == "" {
     fmt.Println("Please type in an url")
