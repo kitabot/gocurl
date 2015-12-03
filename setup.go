@@ -23,6 +23,7 @@ func main(){
   } */
   data, err := http.Get(url)
   if err != nil{
+    fmt.Println("Please use http:// in your url")
     os.Exit(1)
   }else{
     defer data.Body.Close()
