@@ -3,6 +3,7 @@ package main
 import (
   "fmt"
   "net/http"
+  "log"
   "os"
   "io/ioutil"
 )
@@ -17,14 +18,14 @@ func main(){
   }
   data, err := http.Get(url)
   if err != nil{
-    fmt.Println("Please use http:// in your url")
+    log.Error(err)
     os.Exit(1)
   }else{
     fmt.Println("Fetching url...")
     defer data.Body.Close()
     contents, err := ioutil.ReadAll(data.Body)
     if err != nil{
-      fmt.Println("%s\n", err)
+      log.Error(err)
     }
     fmt.Println("%s\n", string(contents))
   }
