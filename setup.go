@@ -16,13 +16,13 @@ func main(){
   }
   data, err := http.Get(url)
   if err != nil{
-    log.Error(err)
+    log.Fatal(err)
   }else{
     fmt.Println("Fetching url...")
     defer data.Body.Close()
     contents, err := ioutil.ReadAll(data.Body)
     if err != nil{
-      log.Error(err)
+      log.Fatalr(err)
     }
     fmt.Println("%s\n", string(contents))
   }
