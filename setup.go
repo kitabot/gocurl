@@ -22,7 +22,7 @@ func main(){
     defer data.Body.Close()
     contents, err := ioutil.ReadAll(data.Body)
     if err != nil{
-      log.Fatalr(err)
+      log.Fatal(err)
     }
     fmt.Println("%s\n", string(contents))
   }
