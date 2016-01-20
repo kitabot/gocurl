@@ -11,7 +11,7 @@ Gocurl will fetch website's index code
 $ git clone https://github.com/codingsmartschool/gocurl.git
 $ cd gocurl
 $ go run setup.go
->> url: (Make sure to use http://)
+>> Insert url: (Make sure to use http://)
 http://example.com
 ```
 
