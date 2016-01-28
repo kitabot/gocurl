@@ -6,6 +6,7 @@ import (
 	"log"
 	"net/http"
 	"strings"
+	"os"
 )
 
 // askURL provide an i/o process asking for a valid URL
@@ -14,12 +15,16 @@ func askURL() string {
 	fmt.Print("URL: ")
 	fmt.Scanf("%s", &url)
 
+	if (url == "exit") {
+		os.Exit(1)
+	}
+
 	if (url == "") ||
 		((!strings.HasPrefix(url, "http:")) ||
 			(!strings.HasPrefix(url, "https:"))) {
 		fmt.Println("Please type in a valid url or use http://")
 		url = askURL()
-	}
+	}	
 
 	return url
 }
