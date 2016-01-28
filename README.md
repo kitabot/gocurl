@@ -12,7 +12,7 @@ $ git clone https://github.com/codingsmartschool/gocurl.git
 $ cd gocurl
 $ go run setup.go
 >> URL:
-http://example.com
+http://example.com # you have to use http:// because it's a valid url
 ```
 
 ## Contributing
