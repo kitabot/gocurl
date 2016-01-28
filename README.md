@@ -14,6 +14,7 @@ $ go run setup.go
 >> URL:
 http://example.com # you have to use http:// because it's a valid url
 ```
+You can also use `exit` in the `URL:` input to exit the program
 
 ## Contributing
 Changes and improvements are more than welcome! Feel free to fork and open a pull request. Please make your changes in a specific branch and request to pull into master! If you can, please make sure the code fully works before sending the PR, as that will help speed up the process.
