@@ -20,4 +20,4 @@ Changes and improvements are more than welcome! Feel free to fork and open a pul
 
 You can find the same information in the [contributing guide](CONTRIBUTING.MD).
 ## License
-Gocurl is licensed under [MIT](https://github.com/codingsmartschool/gocurl/blob/master/LICENSE).
+Gocurl is licensed under the [MIT license](https://github.com/codingsmartschool/gocurl/blob/master/LICENSE).
