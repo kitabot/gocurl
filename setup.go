@@ -21,7 +21,7 @@ func askURL() string {
 
 	if (url == "") ||
 		((!strings.HasPrefix(url, "http:")) ||
-			(!strings.HasPrefix(url, "https:"))) {
+			(!strings.HasPrefix(url, "http:"))) {
 		fmt.Println("Please type in a valid url or use http://")
 		url = askURL()
 	}	
